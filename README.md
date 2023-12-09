@@ -291,12 +291,12 @@ replacing the model architecture we obtain different scores.
 
 | **Notebook** | **ROC** **AUC** **Score** | **Dataset size** | **Model** | **Notes**                     |
 |:-------------|:--------------------------|:-----------------|:----------|:------------------------------|
-| Baseline     |                           | 10,000             | LR + XGB  | Experiment 1                  |
-| Baseline     |                           | 12,078             | LR + XGB  | Used glove_100d embeddings    |
-| RNN          |                           | 12,078             | LSTM      | Experiment 2                  |
-| RNN          |                           | 12,078             | LSTM      | Increased epochs from 5 to 20 |
-| Transformers |                           | 10,000             | BERT      | Experiment 3                  |
-| Transformers |                           | 12,078             | BERT      | Added more data               |
+| Baseline     |        0.664              | 10,000             | LR + XGB  | Experiment 1                  |
+| Baseline     |        0.758              | 12,078             | LR + XGB  | Used glove_100d embeddings    |
+| RNN          |        0.804              | 12,078             | LSTM      | Experiment 2                  |
+| RNN          |        0.721              | 12,078             | LSTM      | Increased epochs from 5 to 20 |
+| Transformers |        0.73               | 10,000             | BERT      | Experiment 3                  |
+| Transformers |        0.775              | 12,078             | BERT      | Added more data               |
 
 </div>
 
